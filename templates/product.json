@@ -70,6 +70,39 @@
         "padding_bottom": 16
       }
     },
+    "costum_tabs_BN6wUV": {
+      "type": "costum-tabs",
+      "blocks": {
+        "tab_fxiMgF": {
+          "type": "tab",
+          "settings": {
+            "heading": "Description",
+            "tab_content": "<p>Discover the Perfect Gift: A Mouse Gift Card for Every Occasion.<\/p>"
+          }
+        },
+        "tab_P3x3TQ": {
+          "type": "tab",
+          "settings": {
+            "heading": "New Things",
+            "tab_content": "<p>Discover Exciting New Things to Elevate Your Lifestyle.<\/p>"
+          }
+        },
+        "tab_KPHMYc": {
+          "type": "tab",
+          "settings": {
+            "heading": "How it works?",
+            "tab_content": "<p>Discover the Science Behind Our Simple and Effective Process.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_fxiMgF",
+        "tab_P3x3TQ",
+        "tab_KPHMYc"
+      ],
+      "settings": {
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -91,6 +124,7 @@
   },
   "order": [
     "main",
+    "costum_tabs_BN6wUV",
     "related-products"
   ]
 }
