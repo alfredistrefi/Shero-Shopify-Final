@@ -67,7 +67,7 @@
     "blog-section": {
       "type": "blog-section",
       "custom_css": [
-        ".blog-section {align-items: center; text-align: center; }"
+        ".blog-section {align-items: center; text-align: center;}"
       ],
       "settings": {
       }
