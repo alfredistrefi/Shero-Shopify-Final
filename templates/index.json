@@ -36,6 +36,11 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "p_tabs_38m4nN": {
+      "type": "p-tabs",
+      "settings": {
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -67,7 +72,7 @@
     "blog-section": {
       "type": "blog-section",
       "custom_css": [
-        ".blog-section {align-items: center; text-align: center; }"
+        ".blog-section {align-items: center; text-align: center;}"
       ],
       "settings": {
       }
@@ -75,6 +80,7 @@
   },
   "order": [
     "slideshow",
+    "p_tabs_38m4nN",
     "featured_collection",
     "blog-section"
   ]
