@@ -36,11 +36,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "p_tabs_38m4nN": {
-      "type": "p-tabs",
-      "settings": {
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -80,7 +75,6 @@
   },
   "order": [
     "slideshow",
-    "p_tabs_38m4nN",
     "featured_collection",
     "blog-section"
   ]
