@@ -1,0 +1,43 @@
+{% comment %}
+  A simple blog section to display recent posts.
+{% endcomment %}
+
+<div class="blog-section">
+  <h2>Latest Blog Posts</h2>
+  <div class="blog-posts">
+    {% assign blog = blogs.news %}
+    {% for article in blog.articles limit: 3 %}
+      <div class="blog-post">
+        <h3>
+          <a href="{{ article.url }}">{{ article.title }}</a>
+        </h3>
+        <p>{{ article.excerpt | strip_html | truncate: 100 }}</p>
+        <a href="{{ article.url }}">Read more</a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .blog-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  .blog-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .blog-post {
+    margin-bottom: 20px;
+  }
+  .blog-post h3 {
+    font-size: 20px;
+  }
+  .blog-post p {
+    font-size: 16px;
+  }
+  .blog-post a {
+    color: #3490dc;
+    text-decoration: none;
+  }
+</style>
