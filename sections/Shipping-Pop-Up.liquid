@@ -1,12 +1,53 @@
+<button onclick="showModal()">Show Information</button>
+
+<div id="overlay" class="overlay">
+  <!-- The modal -->
+  <div id="modal" class="modal">
+    <!-- Information content -->
+    <h2>Information</h2>
+    <p>This is the information you want to display.</p>
+    <!-- Close button -->
+    <button onclick="hideModal()">Close</button>
+  </div>
+</div>
+
 <script>
-  function showInformation() {
-    var information = "This is the information you want to display.";
-    alert(information);
+  // Function to show the modal
+  function showModal() {
+    document.getElementById("overlay").style.display = "block";
+  }
+
+  // Function to hide the modal
+  function hideModal() {
+    document.getElementById("overlay").style.display = "none";
   }
 </script>
 
-<button onclick="showInformation()">Show Information</button>
+<style>
+  /* Styles for the overlay */
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    z-index: 999; /* Ensure it's on top of everything */
+  }
 
+  /* Styles for the modal */
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+</style>
 {% schema %}
 {
   "name": "Shipping Information",
