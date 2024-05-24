@@ -71,11 +71,17 @@
       ],
       "settings": {
       }
+    },
+    "p_tabs_UfGBBU": {
+      "type": "p-tabs",
+      "settings": {
+      }
     }
   },
   "order": [
     "slideshow",
     "featured_collection",
-    "blog-section"
+    "blog-section",
+    "p_tabs_UfGBBU"
   ]
 }
