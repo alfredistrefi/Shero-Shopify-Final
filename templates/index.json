@@ -66,14 +66,10 @@
     },
     "blog-section": {
       "type": "blog-section",
+      "disabled": true,
       "custom_css": [
         ".blog-section {align-items: center; text-align: center;}"
       ],
-      "settings": {
-      }
-    },
-    "p_tabs_UfGBBU": {
-      "type": "p-tabs",
       "settings": {
       }
     }
@@ -81,7 +77,6 @@
   "order": [
     "slideshow",
     "featured_collection",
-    "blog-section",
-    "p_tabs_UfGBBU"
+    "blog-section"
   ]
 }
