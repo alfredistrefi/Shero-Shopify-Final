@@ -8,7 +8,10 @@
   } );
 </script>
 
-<div id="tabs">
+<div
+  id="tabs"
+  {{ 'Top-Quality-text.css' | asset_url | stylesheet_tag }}
+>
   <ul>
     <li><a href="#tabs-1">Nunc tincidunt</a></li>
     <li><a href="#tabs-2">Proin dolor</a></li>
