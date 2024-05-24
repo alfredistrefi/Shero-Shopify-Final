@@ -1,4 +1,4 @@
-<div onclick="showModal()">Show Information</div>
+<div class="Main-Text" onclick="showModal()">Show Information</div>
 
 <div id="overlay" class="overlay">
   <div id="modal" class="modal">
@@ -29,6 +29,9 @@
     z-index: 999; /* Ensure it's on top of everything */
   }
 
+  .Main-Text{
+    text-decoration: underline;
+  }
   /* Styles for the modal */
   .modal {
     position: fixed;
